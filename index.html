@@ -1,0 +1,92 @@
+<!-- Writen, designed, compiled, processed, published by James Uccello
+    CIS148
+    11/27/2023
+  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="icon" type="image/x-icon" href="./images/logo/my-logo2.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+
+<!-- my audio file, i used javascript to adjust volume-->
+<audio autoplay id="bgAudio">
+  <source src="./audio/mywebsiteaudiomix.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+  var audio = document.getElementById("bgAudio");
+  audio.volume = 0.4;
+</script>
+
+<!-- My Nav Bar -->
+<div id="nav-backgrounds" class="p/24,c/23">
+   <div class="container">
+       <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom ">
+         <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+           <img class="homelogo" src="./images/logo/MyLogoWhite/mylogowhitesvg.svg" alt="uccello foundation logo">
+       </a>
+   
+         <ul class="nav">
+           <li class="nav-item"><a href="./index.html" class="nav-link" aria-current="page"><span class="light-yellow navtext">Home</span></a></li>
+           <li class="nav-item"><a href="./financial.html" class="nav-link"><span class="light-yellow navtext">Financial Assistance</span></a></li>
+           <li class="nav-item"><a href="./housing.html" class="nav-link"><span class="light-yellow navtext">Housing Assistance</span></a></li>
+           <li class="nav-item"><a href="./food.html" class="nav-link"><span class="light-yellow navtext">Food Assistance</span></a></li>
+           <li class="nav-item"><a href="./contactus.html" class="nav-link"><span class="light-yellow navtext">Contact Us</span></a></li>
+         </ul>
+         <aside>
+           <p class="display-5"><span class="white">"Communities Helping Communities"</span></p>
+         </aside>
+       </header>
+   </div>
+</div>
+
+    
+<!-- Featured in the middle -->
+    <div class="row featurette featured">
+        <div class="col-md-7 message">
+          <h2 class="featurette-heading fw-normal lh-1 white">"Community Helping Community" <span class="text-body-secondary">It’ll blow your mind.</span></h2>
+          <p class="lead">If you are looking for resources in the community, then the <span class="light-yellow highlighted">Uccello Foundation</span> site is for you. Here we list websites of interest, including community agencies, events, and how to stay connected within the community. There are more resources available than most people realize. We will be continually adding to this resource listed on this site, so check back regularly. We encourage everyone to visit each page to see whats out there!</p>
+          <p class="lead">Every individual can play a role in building a supportive community, from introducing yourself to a neighbor to championing a block party. Activities can be small or large, focused on individual relationships or big picture initiatives. Is small talk not your thing? Acts of service are ways to connect, too! Consider ways to help the people around you, like taking a meal to someone who is sick or home-bound, or surprising a neighbor with a shoveled walk or weed-free flower bed.</p>
+        </div>
+        <div class="col-md-5">
+            <img class="gatheringhumanity" src="./images/gatheringhumanity.png" alt="gatehring humanity picture">
+        </div>
+    </div>
+  
+<!-- 3 refrences in the middle -->
+<div class="row">
+    <div class="col-lg-4">
+        <div class="refrenced" ><img src="./images/financial-assistance.jpg" alt="financial assistance picture"></div>
+        <h2 class="fw-normal buttons">Financial Assistance</h2>
+      <p class="blocked">With inflation rising quicker than ever, many families are experiencing financial struggles. With whispers of a recession around the corner, many are experiencing financial anxiety. Click the button to learn more</p>
+      <p class="buttons"><a class="btn btn-secondary" href="./financial.html">View details »</a></p>
+    </div><!-- /.col-lg-4 -->
+  
+    <div class="col-lg-4">
+        <div class="refrenced" ><img src="./images/housing-assistance.jpg" alt="Housing assistance picture"></div>
+        <h2 class="fw-normal buttons">Housing Assistance</h2>
+      <p class="blocked">The federal government spent $90 billion on housing assistance 2021, an increase of almost 70 percent from the preceding year, largely due to legislation enacted in response to the coronavirus (COVID-19) pandemic. Click the button to learn more.</p>
+      <p class="buttons"><a class="btn btn-secondary" href="./housing.html">View details »</a></p>
+    </div><!-- /.col-lg-4 -->
+   
+    <div class="col-lg-4">
+        <div class="refrenced"><img src="./images/food-assistance.jpg" alt="food assistance picture"></div>
+        <h2 class="fw-normal buttons">Food Assistance</h2>
+      <p class="blocked">Living in a home without reliable access to enough food for a healthy, active life is known as food insecurity. One in eight Americans are food insecure and do not always have food due to a lack of funds or other resources. Click the button to learn more</p>
+      <p class="buttons"><a class="btn btn-secondary" href="./financial.html">View details »</a></p>
+    </div><!-- /.col-lg-4 -->
+    
+  </div>
+  
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</body>
+

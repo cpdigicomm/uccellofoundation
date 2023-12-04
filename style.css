@@ -1,0 +1,116 @@
+.homelogo {
+    width: 60%;
+}
+
+html {
+    background:#419197 ;
+    padding: .5%;
+   
+}
+
+#nav-backgrounds {
+    background: #12486B ;
+       
+}
+
+.navtext {
+    font-size: 1.2em;
+
+}
+
+.white {
+    color: lightgray;
+    font-style: italic;
+    font-weight: 500;
+
+}
+
+.light-yellow {
+    color: #F5FCCD;
+    font-style: italic;
+    
+    
+}
+
+.statement {
+   font-style: italic;
+
+}
+
+.featured {
+    background-color:#419197 ;
+    margin: 1%
+    
+}
+
+.message {
+
+    padding-top: 5%;
+       
+}
+
+.highlighted {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.gatheringhumanity {
+    width: 100%;
+    padding-top: 2%;
+}
+
+
+.refrenced {
+   justify-items: center;
+   height: 183px;
+   text-align: center;
+   
+}
+
+.blocked {
+    text-align: justify;
+}
+
+.buttons {
+    text-align: center;
+    padding-bottom: 1.5%;
+}
+
+
+
+.featuredfood {
+    background-color:#419197 ;
+    color: white;
+        
+}
+
+
+.light-green {
+    color: #35A29F;
+}
+
+.dark-blue {
+    color: #071952;
+}
+
+.bold-black {
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#hunger {
+    background-color: #419197;
+    text-align: center;
+}
+
+.picture-links {
+    display: inline-block;
+    padding-right: 2%;
+    }
+
+.communities {
+    color: white;
+    font-style: italic;
+}
+
