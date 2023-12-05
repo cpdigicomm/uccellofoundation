@@ -264,3 +264,11 @@ footer {
 	.banner-image {
   width: 57%;
   	}
+
+li {
+	list-style-position: inside;
+	padding: 0;
+	text-align: center;
+	font-weight: bold;
+	 }
+
